@@ -14,7 +14,7 @@ The Creative Professionals Agentic Tasks dataset is built at a scale designed fo
 
 * **Total Operations (Rows):** 1,070,917
 * **Total Agent Task Tokens (Prompts only):** 231,577,252
-* **Total Dataset Tokens (Full schema):** 248,581,555
+* **Total Dataset Tokens (Full schema):** 243,218,984
 * **Total Compute Expenditure (Generation):** 527,166,140 tokens (approx.)
 * **Dimensionality:** 36 distinct professional archetypes spanning 17 macro-categories
 * **Storage Format:** Chunked Parquet (`batch_id` ordered, Zstandard compression)
