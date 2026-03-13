@@ -4,7 +4,7 @@
 
 ## Abstract
 
-A massive-scale, high-fidelity synthetic task dataset featuring **1,070,930** agentic command operations across 36 creative, technical, and engineering software environments. This dataset is engineered exclusively to stress-test, evaluate, and fine-tune multimodal AI for Agent Environment operation, complex software interaction, and multi-step reasoning within deep software infrastructures.
+A massive-scale, high-fidelity synthetic task dataset featuring **1,070,917** agentic command operations across 36 creative, technical, and engineering software environments. This dataset is engineered exclusively to stress-test, evaluate, and fine-tune multimodal AI for Agent Environment operation, complex software interaction, and multi-step reasoning within deep software infrastructures.
 
 <img src="Creative Professional Robot.jpg" alt="Creative Professional Robot" width="100%"/>
 
@@ -12,8 +12,8 @@ A massive-scale, high-fidelity synthetic task dataset featuring **1,070,930** ag
 
 The Creative Professionals Agentic Tasks dataset is built at a scale designed for core-level agent training, focusing on the semantic gap between high-level user intent and absolute tool-level Agent Environment execution.
 
-* **Total Operations (Rows):** 1,070,930
-* **Total Agent Task Tokens (Prompts only):** 231,585,044
+* **Total Operations (Rows):** 1,070,917
+* **Total Agent Task Tokens (Prompts only):** 231,577,252
 * **Total Dataset Tokens (Full schema):** 248,581,555
 * **Total Compute Expenditure (Generation):** 527,166,140 tokens (approx.)
 * **Dimensionality:** 36 distinct professional archetypes spanning 17 macro-categories
@@ -54,7 +54,7 @@ $$
 {n \choose 2} + {n \choose 3} = C_{max}
 $$
 
-Summing this across the entire matrix produces **4,211,138** possible unique tool intersections. By sampling only 1,070,930 times from this pool using a seeded Random Number Generator bound to the `batch_id`, the dataset achieves high structural entropy while remaining computationally reproducible.
+Summing this across the entire matrix produces **4,211,138** possible unique tool intersections. By sampling only 1,070,917 times from this pool using a seeded Random Number Generator bound to the `batch_id`, the dataset achieves high structural entropy while remaining computationally reproducible.
 
 **3. Hash-Based Behavioral Injection**<br>
 To shatter the monotonic voice often found in synthetic datasets, the task engine utilizes a 76-parameter behavioral array (featuring behaviors like `surgical`, `exasperated`, `clinical`, `deductive`). The behavior injected into the system prompt is chosen via:
