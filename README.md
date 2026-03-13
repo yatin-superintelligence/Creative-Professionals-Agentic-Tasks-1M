@@ -31,6 +31,8 @@ The defining challenge lies in "Contextual Actuation"—the multimodal agent is 
 
 The dataset schema is normalized for high-throughput data loading in multi-GPU training environments:
 
+<div style="margin-bottom: -35px;"></div>
+
 | Schema Node      | Data Type | Implementation Details                                                                                                             |
 | :--------------- | :-------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | `batch_id`     | Int64     | Chronological generation marker (0 to 18,332). Acts as the primary deterministic seed for combinatorial permutation.               |
@@ -38,8 +40,7 @@ The dataset schema is normalized for high-throughput data loading in multi-GPU t
 | `professional` | String    | The exact occupational archetype (e.g.,`Look Dev / Lighting TD`, `Audio Restoration Engineer`). Determines the lexical bounds. |
 | `group`        | String    | The overarching macro-category (e.g.,`3D & CGI`, `Screen & Post Audio`) enabling stratified sampling.                          |
 | `user_prompt`  | String    | The payload: The unformatted, raw task sequence requested of the multimodal agent.                                                 |
-
-## Mathematics of Combinatorial Generation
+<h2 style="margin-top: -5px !important;">Mathematics of Combinatorial Generation</h2>
 
 To algorithmically ensure zero task duplication and eliminate monotonic semantic drift across 1.07 million rows, this dataset was generated via a multi-stage deterministic combinatorial engine:
 
